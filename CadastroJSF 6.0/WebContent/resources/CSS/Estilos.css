@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+
+tr:nth-child(odd){
+	background-color: #DEDEDE;
+}
+
+tr:nth-child(even){
+	background-color: #fff;
+}
+
+.tabela{
+	padding-top:10px; 
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 11px;
+	border: 1px solid #dEdEdE;
+	width: 100%;
+}
+th,td{
+	padding:5px;
+}
+
+
+th{
+	background-color: black;
+	color:white;
+}
+.container{
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+body{
+	margin: 0;
+	background-color:#F5FAFF;
+}
+#tituloBanner{
+	
+}
+legend{
+	color:blue;
+}
+#form{
+	margin-top: 10px;
+}
+.bannerLink{
+	font-family:sans-serif;
+	color:white;
+	font-size: 19px;
+	text-decoration: none;
+	margin-left: 30px;
+}
+.header{
+	background: url(#{resource['imagens:bg_black_gradient.jpg']});
+	
+	height: 100px;
+	margin: 0 auto;
+	padding-top:10px;
+}
+.tituloBanner{
+	color:white;
+	text-decoration: none;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	font-family: Comic Sans MS, Arial;
+	
+	font-size: 9px;
+	color:black;
+	width:100%;
+	
+	}
+.content{
+	padding-bottom: 30px;
+}
+.erro{
+	color:red;
+}
+#field{
+	margin-left: 10px;
+}
+
+.busca_texto{
+	width: 550px;
+	border: 1px solic #CCC;
+	padding: 3px;
+}
+
+.barra-de-pesquisa{
+	font-family: Tahoma, sans-serif, Arial;
+	font-size: 17px;
+	margin-bottom: 20px;
+	width: 560px;
+}
